@@ -75,7 +75,7 @@ export const MOCK_USER: User = {
   id: 'u1',
   name: 'John Doe',
   email: 'john@example.com',
-  avatar: 'src/public/images/placeholder.svg',
+  avatar: 'https://i.pravatar.cc/150?u=8',
   joinDate: 'Jan 10, 2024',
   role: 'user',
   enrolledCourses: [
