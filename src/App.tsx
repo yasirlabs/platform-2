@@ -498,7 +498,7 @@ const Hero = () => {
               className="card" style={{ position: "absolute", bottom: 36, left: 24, padding: "13px 17px", borderRadius: 18, display: "flex", alignItems: "center", gap: 10 }}
             >
               <div style={{ display: "flex" }}>
-                {[1,2,3].map(i => <img key={i} src={`https://i.pravatar.cc/40?u=${i+20}`}
+                {[1,2,3].map(i => <img key={i} src={`https://i.pravatar.cc/40?u=${i+47}`}
                   style={{ width: 27, height: 27, borderRadius: "50%", border: "2px solid #fff", marginLeft: i > 1 ? -8 : 0, objectFit: "cover" }} referrerPolicy="no-referrer" />)}
               </div>
               <div>
@@ -606,7 +606,7 @@ const Mentorship = () => {
       <Reveal>
         <div style={{ position: "relative" }}>
           <div ref={parallaxRef} style={{ borderRadius: 28, overflow: "hidden", aspectRatio: "4/3" }}>
-            <img src="src/public/images/team.png"
+            <img src="https://res.cloudinary.com/dvx6nsrd9/image/upload/v1773343316/team_stbrev.png"
               alt="Mentorship" className="parallax-img" style={{ width: "100%", height: "115%", objectFit: "cover", display: "block", willChange: "transform", marginTop: "-7.5%" }} referrerPolicy="no-referrer" />
           </div>
           <div style={{ position: "absolute", bottom: -20, right: -20, width: 130, height: 130, borderRadius: 20, background: "var(--coral-pale)", border: "1px solid rgba(232,93,63,0.15)", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 3 }}>
